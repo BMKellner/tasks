@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import logo from "./logo.png";
 
 function App(): JSX.Element {
     return (
@@ -7,11 +8,8 @@ function App(): JSX.Element {
             <header className="App-header">
                 Benjamin Kellner is the greatest Hello World of all time CISC275
             </header>
-            <header className="App-header">This is a jack richter page</header>
-            <img
-                src="/Users/ben/tasks/src/Images/IMG_6830.JPG"
-                alt="The Blimp Cerca 2019"
-            />
+            <header className="App-header">This is a Schmeven page</header>
+            <img src={logo} alt="The Blimp Cerca 2019" />
             <p>
                 Edit <code>src/App.tsx</code> and save. This page will
                 automatically reload.
