@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import picture from "/Users/ben/tasks/src/Images/the_blimp.jpg";
+import picture from "./Images/the_blimp.jpg";
 import { Button, Col, Container, Row } from "react-bootstrap";
 
 function App(): JSX.Element {
