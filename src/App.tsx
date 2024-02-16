@@ -5,10 +5,13 @@ function App(): JSX.Element {
     return (
         <div className="App">
             <header className="App-header">
-                Benjamin Kellner is the greatest Hello World of all time CISC
+                Benjamin Kellner is the greatest Hello World of all time CISC275
             </header>
             <header className="App-header">This is a jack richter page</header>
-
+            <img
+                src="/Users/ben/tasks/src/Images/IMG_6830.JPG"
+                alt="The Blimp Cerca 2019"
+            />
             <p>
                 Edit <code>src/App.tsx</code> and save. This page will
                 automatically reload.
