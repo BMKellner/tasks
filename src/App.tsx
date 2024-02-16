@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import logo from "the_blimp.jpg";
+import logo from "./the_blimp.jpg";
 
 function App(): JSX.Element {
     return (
