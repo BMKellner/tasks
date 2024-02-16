@@ -14,6 +14,12 @@ function App(): JSX.Element {
                 width="200"
                 height="300"
             />
+            Reasons why Ceeve is the biggest blimp in the world:
+            <ul>
+                <li>He looks like a blimp</li>
+                <li>He sounds like a blimp</li>
+                <li>He acts like a blimp</li>
+            </ul>
         </div>
     );
 }
