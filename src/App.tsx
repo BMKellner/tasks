@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import logo from "./Users/ben/tasks/src/Images/IMG_6830.jpg";
+import logo from "./src/Images/IMG_6830.jpg";
 
 function App(): JSX.Element {
     return (
