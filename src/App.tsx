@@ -1,16 +1,19 @@
 import React from "react";
 import "./App.css";
+import picture from "/Users/ben/tasks/src/Images/the_blimp.jpg";
 
 function App(): JSX.Element {
     return (
         <div className="App">
             <header className="App-header">
-                Benjamin Kellner is the greatest Hello World of all time CISC275
+                Ceeve is the biggest blimp in the entire world
             </header>
-            <p>
-                Edit <code>src/App.tsx</code> and save. This page will
-                automatically reload.
-            </p>
+            <img
+                src={picture}
+                alt="The Blimp cerca 2019"
+                width="200"
+                height="300"
+            />
         </div>
     );
 }
