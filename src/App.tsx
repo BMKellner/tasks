@@ -33,7 +33,7 @@ function App(): JSX.Element {
                         First Column.
                         <div
                             style={{
-                                width: "100px",
+                                width: "300px",
                                 height: "100px",
                                 backgroundColor: "#eb343d"
                             }}
@@ -43,7 +43,7 @@ function App(): JSX.Element {
                         Second Column.
                         <div
                             style={{
-                                width: "100px",
+                                width: "300px",
                                 height: "100px",
                                 backgroundColor: "#eb343d"
                             }}
