@@ -23,7 +23,6 @@ export function add3(first: number, second: number, third: number): number {
     if (third > 0) {
         sum += third;
     }
-    console.log(sum);
     return sum;
 }
 
