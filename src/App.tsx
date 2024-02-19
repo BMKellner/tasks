@@ -9,9 +9,7 @@ function App(): JSX.Element {
             <header className="App-header">
                 Benjamin Kellner is the greatest Hello World CISC275
             </header>
-            <header className="App-header">
-                Ceeve is the biggest blimp in the entire world
-            </header>
+            <h1>Ceeve is the biggest blimp in the entire world</h1>
             <img
                 src={picture}
                 alt="The Blimp cerca 2019"
@@ -25,7 +23,7 @@ function App(): JSX.Element {
                 <li>He acts like a blimp</li>
             </ul>
             <Button onClick={() => console.log("Hello World!")}>
-                Click If Blimp
+                Log Hello World
             </Button>
             <Container>
                 <Row>
