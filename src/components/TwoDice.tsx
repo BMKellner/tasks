@@ -41,8 +41,8 @@ export function TwoDice(): JSX.Element {
         <div>
             Left Die: <span data-testid="left-die">{die1}</span>
             Right Die: <span data-testid="right-die">{die2}</span>
-            <button onClick={rollDie1}>Roll Left</button>
-            <button onClick={rollDie2}>Roll Right</button>
+            <Button onClick={rollDie1}>Roll Left</Button>
+            <Button onClick={rollDie2}>Roll Right</Button>
             <div>{gameResult()}</div>
         </div>
     );
