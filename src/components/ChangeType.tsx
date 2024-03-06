@@ -15,7 +15,7 @@ export function ChangeType(): JSX.Element {
 
     return (
         <div>
-            <button onClick={handleChangeType}>Change Type</button>
+            <Button onClick={handleChangeType}>Change Type</Button>
             <p>
                 {questionType === multipleChoice
                     ? "Multiple Choice"
