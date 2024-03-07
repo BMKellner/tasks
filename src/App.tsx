@@ -18,7 +18,7 @@ function App(): JSX.Element {
                 Benjamin Kellner is the greatest Hello World CISC275
             </header>
             <hr></hr>
-            {/* <DoubleHalf></DoubleHalf> */}
+            {<DoubleHalf></DoubleHalf>}
             <hr></hr>
             <ChooseTeam></ChooseTeam>
             <hr></hr>
